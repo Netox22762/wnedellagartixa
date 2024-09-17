@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+body{
+    font-family:"Fira Code" ;
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-size: 60px;
+}
+@keyframes changeBackgroundColor {
+    0% {
+      background-color: #0b5e00;
+    }
+    50% {
+      background-color: #00ff22;
+    }
+    100% {
+      background-color: #0b5e00;
+    }
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    animation: changeBackgroundColor 7s infinite;
+    color: white;
+  }
+  .nusic{
+    font-size: 50px;
+
+  }
+  #eu{
+    color: black;
+  }
+  main{
+    width: 50vw;
+
+
+  }#image{
+    background-image:url('OIP\ \(1\).jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    color: white;
+  }
+  #image2{
+    background-image: url(baixados.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    color: white;
+  }
+  .aq{
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 10px;
+  
+  }
+  div{
+    width: 50vw;
+  }
